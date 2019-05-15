@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Garamond;
+    background: url('https://fatequino.com.br/wp-content/uploads/2019/03/wallpaper001.jpg') repeat;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    background: #e6eaea;
+    width: 70%;
+    height: 470px;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+#chatbox {
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 0;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+h3 {
+    color: white;
+    font-size: 0.9em;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#userInput {
+    align-self: flex-end;
+    height: 50px;
+    width: 100%;
+}
+
+#textInput {
+    width: 87%;
+    border: 1px solid #838383;
+    font-family: monospace;
+    font-size: 1em;
+    height: 70%;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+
+#buttonInput {
+    padding: 3px;
+    font-family: monospace;
+    font-size: 1.1em;
+}
+
+.userText {
+    color: white;
+    font-family: monospace;
+    font-size: 1.1em;
+    text-align: right;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.userText span {
+    background-color: #009688;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.botText {
+    color: white;
+    font-family: monospace;
+    font-size: 1.1em;
+    text-align: left;
+    line-height: 30px;
+    padding: 10px;
+}
+.botText span {
+    background-color: #EF5350;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#tidbit {
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 300px;
+}
